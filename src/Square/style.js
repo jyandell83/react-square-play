@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SquareShape = styled.div`
-    height:50px;
-    width: 50px;
+    height: ${props =>  props.size}
+    width: ${props =>  props.size}
     background-color: ${props =>  props.color};
 `
