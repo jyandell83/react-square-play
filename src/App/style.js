@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const FlexCenter = styled.div`
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
     text-align: center;
     margin: 0 auto;
 `

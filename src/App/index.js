@@ -9,10 +9,15 @@ import {
 
 const App = () => {
   return (
+    <div>
+    <h1>Click the shapes if you dare</h1>
     <FlexCenter className="App">
-      <h1>Click the shapes if you dare</h1>
+      <Square />
+      <Square />
+      <Square />
       <Square />
     </FlexCenter>
+    </div>
   );
 }
 
