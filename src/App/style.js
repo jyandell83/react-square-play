@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const FlexCenter = styled.div`
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    text-align: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(100px, 500px);
     margin: 0 auto;
 `

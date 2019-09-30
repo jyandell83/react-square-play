@@ -10,8 +10,16 @@ import {
 const App = () => {
   return (
     <div>
-    <h1>Click the shapes if you dare</h1>
+    <h1>Do you dare click a square?</h1>
     <FlexCenter className="App">
+      <Square />
+      <Square />
+      <Square />
+      <Square />
+      <Square />
+      <Square />
+      <Square />
+      <Square />
       <Square />
       <Square />
       <Square />
