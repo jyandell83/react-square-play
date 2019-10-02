@@ -6,24 +6,21 @@ import {
 } from './style';
 
 
+const elementArr = []
+const makeSquares = (numberOfSquares) =>  {
+  
+  for (let i = 1; i <= numberOfSquares; i++) {
+    elementArr.push(<Square key ={i}/>)
+  }
+}
 
 const App = () => {
+  makeSquares(200);
   return (
     <div>
-    <h1>Do you dare click a square?</h1>
+    
     <FlexCenter className="App">
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
-      <Square />
+      {elementArr}
     </FlexCenter>
     </div>
   );
